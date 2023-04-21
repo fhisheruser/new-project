@@ -1,0 +1,19 @@
+<navbar1_kv>:
+
+
+	# Creating AnchorLayout
+	AnchorLayout:
+		anchor_x: 'left'
+		anchor_y: 'center'
+
+		# Canvas creation
+		canvas:
+			Color:
+				rgb: [1, 0, 0]
+			Rectangle:
+				pos: self.pos
+				size: self.size
+		
+		about:
+			size_hint: [None, None]
+			size: [app.x, app.y]	
